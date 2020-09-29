@@ -1,0 +1,56 @@
+.div_list{
+  width:100%;
+  height:70vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.50);
+  border-radius: 15px;
+  margin-top: 30px;
+  padding:0px;
+  overflow:auto;
+}
+
+.li_pending{
+  background-color: rgb(138, 241, 241);
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.li_done{
+  background-color: rgb(164, 169, 247);
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.far{
+  float:right;
+  padding:7px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color:red;
+}
+
+.far:hover{
+  transform:scale(1.2);
+}
+
+.fa{
+  float:left;
+  padding:7px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color:rgb(18, 172, 18);
+}
+
+.fa:hover{
+  transform:scale(1.2);
+}
+
+h4{
+  padding-bottom: 5px;
+  color:rgb(59, 59, 59);
+}
+
+.linethrough{
+  text-decoration: line-through;
+  color : rgb(105, 103, 103);
+}
