@@ -87,14 +87,14 @@ class App extends Component {
     <div className="div_one">
       <div className="div_two">
         <Routing/>
+        <div className="about_button_div">
+        <Link to='/about'><button type="button">ABOUT</button></Link>
+        </div>
         <Switch> 
             <Route exact path="/" component={() => <List note={this.state.item} delete={this.delete} status={this.status}/>}/>
             <Route path="/about" component={() => <About/>}/>
             <Route path="/form" component={() => <Form  getHeading={this.getHeading}/>}/>
-        </Switch>
-        <div className="about_button_div">
-        <Link to='/about'><button type="button">ABOUT</button></Link>
-        </div>
+        </Switch>  
       </div>
     </div>
   );
